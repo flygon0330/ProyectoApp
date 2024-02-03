@@ -1,0 +1,35 @@
+.bash_history
+.cache/
+.dbclient/
+.eclipse/
+.gitconfig
+.idlerc/
+.lesshst
+.nbi/
+.nbprofiler/
+.p2/
+.redhat/
+.vscode/
+3D Objects/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.DAT
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+TAP/
+TAPEJ2024/
+Videos/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+pseint/
+
