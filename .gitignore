@@ -32,4 +32,6 @@ ntuser.dat.LOG1
 ntuser.dat.LOG2
 ntuser.ini
 pseint/
-
+Documents/
+.config/jgit/
+Desktop/
