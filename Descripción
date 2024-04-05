@@ -1,0 +1,10 @@
+Aplicación por desarrollar: Programa para llevar un control de una Juguetería
+
+Módulos Necesarios:
+
+1. Ventana Principal: Esta ventana servirá como la bienvenida al programa y mostrará los módulos disponibles.
+2. Inventario: En este módulo, se podrán solicitar la lista completa de juguetes, incluyendo sus cantidades en inventario y sus precios unitarios. Además, se podrá agregar más cantidad al inventario.
+3. Registro de Ventas: Aquí se solicitará una fecha para mostrar las ventas realizadas y qué vendedor las llevó a cabo.
+4. Clientes: En este módulo, se podrán agregar y modificar datos de los clientes, lo que permitirá ofrecer un monedero de ahorro.
+5. Vendedores: Se creará una lista con todos los vendedores y sus horarios de trabajo.
+6. Ofertas: Este módulo permitirá crear ofertas de tiempo limitado que se aplicarán a todos los juguetes seleccionados.
