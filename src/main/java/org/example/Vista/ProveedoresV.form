@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.vista.ProveedoresV">
+  <grid id="27dc6" binding="Inicio" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="613" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-6830890"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="adeb2" binding="Titulo" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties>
+          <background color="-6830890"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="8be00" binding="Cuerpo" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="2" row-span="2" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6830890"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dda15" class="javax.swing.JTextField" binding="tfConsulta">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-197380"/>
+                </properties>
+              </component>
+              <component id="705f6" class="javax.swing.JTable" binding="tblProveedores">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <autoResizeMode value="4"/>
+                  <background color="-6830890"/>
+                  <dropMode value="INSERT"/>
+                </properties>
+              </component>
+              <component id="6d2f0" class="javax.swing.JButton" binding="btnConsulta">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-9240955"/>
+                  <text value="Consultar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="cfc83" class="javax.swing.JButton" binding="btnAgregar">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-29004"/>
+              <text value="Agregar"/>
+            </properties>
+          </component>
+          <component id="aad84" class="javax.swing.JButton" binding="btnRegresar">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Regresar"/>
+            </properties>
+          </component>
+          <component id="3f003" class="javax.swing.JButton" binding="btnActualizar">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-331110"/>
+              <text value="Actualizar"/>
+            </properties>
+          </component>
+          <component id="e18f0" class="javax.swing.JButton" binding="btnBorrar">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5890800"/>
+              <text value="Borrar"/>
+            </properties>
+          </component>
+          <component id="a8532" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Proveedores"/>
+            </properties>
+          </component>
+          <component id="4c463" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="ID Proveedor"/>
+            </properties>
+          </component>
+          <component id="205d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Producto"/>
+            </properties>
+          </component>
+          <component id="21755" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Precio"/>
+            </properties>
+          </component>
+          <component id="94618" class="javax.swing.JTextField" binding="tfidProveedor">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="9182b" class="javax.swing.JTextField" binding="tfproductoV">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1b05b" class="javax.swing.JTextField" binding="tfprecioP">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
